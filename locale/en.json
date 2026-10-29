@@ -1,0 +1,4 @@
+{
+  "displayName": "OpenCode Engine",
+  "description": "Runs coding tasks in a spawned opencode ACP agent (out-of-process subagent provider)."
+}

@@ -1,0 +1,76 @@
+# Bundle patch for dsh-opencode-engine.
+#
+# Mounts OUR Host plugin (lib/index.js), which registers the `opencode-acp`
+# subagent provider and the `/opencode` command.
+#
+# Why not @deepseek-ai/dsh-subagent-acp: that package is strictly one-shot
+# (startExternal, no prepareContinuable), while opencode advertises
+# `loadSession: true` and honours `session/load`. Owning the provider is what
+# lets `/opencode -r` continue a real engine session instead of restarting one.
+#
+# Config keys below are this plugin's own `Config` (lib/index.js). The engine
+# command is an `.exe`, never `opencode.cmd`: the subprocess seam spawns through
+# CreateProcessW (Windows Job runner) and its executable probe only tries
+# `.com`/`.exe`, so a `.cmd` wrapper fails with `spawn EINVAL` (measured on
+# Windows: cmd -> EINVAL, exe -> exit 0).
+- insert:
+    - id: opencode-engine
+      name: 'dsh-opencode-engine'
+      config:
+        # REQUIRED — replace with the absolute path to YOUR opencode executable.
+        # Windows (must be the .exe, never the .cmd wrapper):
+        #   engineCommand: '<your-opencode-path>\bin\opencode.exe'
+        # macOS / Linux:
+        #   engineCommand: '<your-opencode-path>\bin\opencode'
+        engineCommand: '<your-opencode-path>\bin\opencode.exe'
+        # --print-logs --log-level WARN is LOAD-BEARING: opencode reports an
+        # exhausted Zen lane only in its own log file, so without the mirror the
+        # ACP stream AND stderr are both silent and a quota wall is
+        # indistinguishable from a hang (measured on Windows).
+        engineArgs:
+          - acp
+          - --print-logs
+          - --log-level
+          - WARN
+        # Permission bridge. 'ask' routes every engine
+        # session/request_permission through ctx.approval.request (the approval
+        # card) and writes the outcome back to ACP:
+        #   allowed-once -> allow_once option; everything else -> reject_once.
+        # The bridge fails CLOSED: missing approval service, absent agent,
+        # approval timeout, or an aborted run all deny the engine.
+        # 'allow' is the no-human behaviour (first allow option).
+        # 'reject' declines every request, leaving the engine unable to write.
+        permission: ask
+        # Fail-closed bounds. `idleTimeoutMs` is the SILENCE watchdog: long
+        # `-r` silences and the Zen quota wall both look like "no events at
+        # all", so the ceiling is 5 minutes rather than a few seconds — a real
+        # opencode turn measures 16-22s for one write, and `session/load` plus
+        # a multi-step edit legitimately runs for minutes. A never-answered
+        # approval card is denied (5 min) rather than granting by omission.
+        idleTimeoutMs: 300000
+        approvalTimeoutMs: 300000
+        # Append the changed-file list to the run receipt. Measured:
+        # ctx.workspaceChanges.summary() does NOT see the engine's writes (it
+        # snapshots Harness file tools), so the plugin takes a git snapshot
+        # through the subprocess seam and omits the list outside a git
+        # repository.
+        changeList: true
+        providerName: opencode-acp
+        commandName: opencode
+        model: ''
+        agent: ''
+        withSummary: false
+        cwdAlign: true
+        disposeGraceMs: 3000
+
+    # Delegation tool bound to the provider, so the model can also reach the
+    # engine in natural language (the provider appears in the tool enum).
+    # `maxDepth: provider-managed` is REQUIRED: the provider advertises
+    # no depthLimit capability, and the seam rejects a start carrying maxDepth.
+    # The tool is named `opencode` to avoid colliding with the stock `subagent`.
+    - id: tool-subagent-opencode
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: opencode-acp
+        toolName: opencode
+        maxDepth: provider-managed

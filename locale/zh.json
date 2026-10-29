@@ -1,0 +1,4 @@
+{
+  "displayName": "OpenCode 引擎",
+  "description": "在独立进程中唤起 opencode ACP 引擎执行编码任务（进程外 subagent 提供方）。"
+}
