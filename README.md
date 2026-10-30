@@ -6,7 +6,7 @@
 **简体中文** | [English](#english)
 
   <img alt="许可证" src="https://img.shields.io/badge/license-MIT-263146?style=flat-square">
-  <img alt="版本" src="https://img.shields.io/badge/version-0.2.7-4b6fff?style=flat-square">
+  <img alt="版本" src="https://img.shields.io/badge/version-0.2.10-4b6fff?style=flat-square">
   <img alt="协议" src="https://img.shields.io/badge/ACP-1.4.0-2f6f4f?style=flat-square">
   <img alt="宿主" src="https://img.shields.io/badge/host-DeepSeek%20Harness-7da1de?style=flat-square">
 
@@ -78,12 +78,13 @@ npm pack              # → dsh-opencode-engine-0.2.7.tgz
 
 | 键 | 类型 / 默认 | 说明 |
 | --- | --- | --- |
-| `engineCommand` | string / `''` | **必填**。opencode 可执行文件的绝对路径。公共版不带任何机器路径默认值；留空时挂载日志会报错提示。 |
+| `engineCommand` | string / `''` | **必填**。opencode 可执行文件的绝对路径。公共版不带任何机器路径默认值；留空时运行会返回 `【config】` 失败回执并写 operator 日志，不会抛异常。**可在配置面板（Settings → Plugins）里改**，也可写 profile 补丁。 |
 | `engineArgs` | string[] / `['acp','--print-logs','--log-level','WARN']` | `--print-logs --log-level WARN` 是**承重的**，不是装饰：opencode 只在自己的日志文件里报告 Zen 车道耗尽，去掉它就等于让"额度墙"和"卡死"长得一模一样。 |
 | `permission` | `'allow'｜'reject'｜'ask'` / `'allow'` | 见下**三态语义**。 |
 | `idleTimeoutMs` | number / `300000` | **静默**看门狗，不是耗时上限。引擎报告死车道的方式就是"一个字都不输出"，所以阈值取 5 分钟：一次真实写入实测十几到二十几秒，`session/load` 加多步编辑合理地要跑几分钟。设 0 关闭。 |
 | `approvalTimeoutMs` | number / `300000` | 审批卡多久没人回答算拒绝。**超时永不等于放行**。 |
 | `changeList` | boolean / `true` | 回执附带本次改动文件列表（git 快照）。 |
+| `transcriptDir` | string / `'.opencode-engine'` | 每次运行把引擎全文写进 `<cwd>/<transcriptDir>/`，另留一份稳定的 `last-run.md`。它是唯一不依赖宿主投递语义的可见性兜底（宿主在某些状态下会静默丢弃子代理的结算通知）。设 `''` 关闭。 |
 | `providerName` | string / `'opencode-acp'` | provider 名。 |
 | `commandName` | string / `'opencode'` | 命令名，即 `/opencode`。 |
 | `model` / `agent` | string / `''` | 默认透传给引擎的模型 / agent（走 `session/set_config_option`）。 |
@@ -159,6 +160,19 @@ npm pack              # → dsh-opencode-engine-0.2.7.tgz
 | `timeout` | 有进展后停住（看门狗触发） | 调大 `idleTimeoutMs`，或先用更小的任务试探 |
 | `crash` | 引擎进程异常退出 | 检查 `engineCommand` 是否存在且可执行 |
 | `protocol` | ACP 协议不一致 / 会话失效 | 重开一个任务，仍失败则提 issue |
+
+## 0.2.10 变更（相对 0.2.7）
+
+- **宿主包全部改为 peer**：`@deepseek-ai/*` 不再进 `dependencies`。pnpm 会把 `dependencies`
+  物理 hoist 进 profile 树（`autoInstallPeers:false` 下 peer 只声明不安装），rc.2 版本的
+  `dsh-session`/`dsh-brand`/`dsh-storage-domain` 因此影子化了 asar 内的 rc.5 安装树，
+  导致 rc.5 宿主拿不到 `sessions` 服务而启动失败。写 peer 后由 Node 解析到运行中运行时自己的副本。
+- **peer 区间放宽为 `>=0.2.1-rc.2 <0.3.0`**，下一次运行时升级不会再因钉死版本被拒绝挂载。
+- **`engineCommand`/`model`/`agent` 改为 `volatile`**：可在配置面板内热改；未配置时返回
+  `【config】` 失败回执（不抛异常）。
+- **回执不再丢弃引擎正文**：正文与运行事实（stop reason / engine session / 改动文件）并存；
+  另把引擎全文落盘到 `transcriptDir`，截断与 `--detach` 提示指向真实文件，不再指向不存在的"子会话"。
+
 
 ## English
 
