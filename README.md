@@ -1,1 +1,299 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaWNvbi5zdmciIGFsdD0iZHNoLW9wZW5jb2RlLWVuZ2luZSIgd2lkdGg9IjEyMCI+CgojIGRzaC1vcGVuY29kZS1lbmdpbmUKCioq566A5L2T5Lit5paHKiogfCBbRW5nbGlzaF0oI2VuZ2xpc2gpCgogIDxpbWcgYWx0PSLorrjlj6/or4EiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9saWNlbnNlLU1JVC0yNjMxNDY/c3R5bGU9ZmxhdC1zcXVhcmUiPgogIDxpbWcgYWx0PSLniYjmnKwiIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS92ZXJzaW9uLTAuMi4xMi00YjZmZmY/c3R5bGU9ZmxhdC1zcXVhcmUiPgogIDxpbWcgYWx0PSLljY/orq4iIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9BQ1AtMS40LjAtMmY2ZjRmP3N0eWxlPWZsYXQtc3F1YXJlIj4KICA8aW1nIGFsdD0i5a6/5Li7IiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvaG9zdC1EZWVwU2VlayUyMEhhcm5lc3MtN2RhMWRlP3N0eWxlPWZsYXQtc3F1YXJlIj4KCjwvZGl2PgoK5oqKICoqb3BlbmNvZGUqKiDnvJbnoIHlvJXmk47mjqXov5sgRGVlcFNlZWsgSGFybmVzc++8jOS9nOS4uioq6L+b56iL5aSW5a2Q5Lya6K+dKirov5DooYzvvJrmj5Lku7boh6rlt7Hlrp7njrDkuIDkuKoKQUNQIHByb3ZpZGVy77yMc3Bhd24gYG9wZW5jb2RlIGFjcGAg5a2Q6L+b56iL77yM6YCa6L+HIEFDUO+8iEFnZW50IENsaWVudCBQcm90b2NvbO+8iempseWKqOWug++8jArlubbmiorlvJXmk47nmoTmnYPpmZDor7fmsYLmoaXmjqXliLDlrr/kuLvljp/nlJ/nmoTlrqHmibnljaHkuIrjgILmqKHlnovot5HlnKjlvJXmk47kvqfvvIzlhY3otLnovabpgZPnlLHlvJXmk47oh6rlt7HotJ/otKPjgIIKCj4gKlBsdWcgdGhlICoqb3BlbmNvZGUqKiBjb2RpbmcgZW5naW5lIGludG8gRGVlcFNlZWsgSGFybmVzcyBhcyBhbiAqKm91dC1vZi1wcm9jZXNzCj4gc3ViYWdlbnQgc2Vzc2lvbioqOiB0aGlzIHBsdWdpbiBvd25zIGFuIEFDUCBwcm92aWRlciwgc3Bhd25zIGBvcGVuY29kZSBhY3BgLCBkcml2ZXMKPiBpdCBvdmVyIHRoZSBBZ2VudCBDbGllbnQgUHJvdG9jb2wsIGFuZCBicmlkZ2VzIHRoZSBlbmdpbmUncyBwZXJtaXNzaW9uIHJlcXVlc3RzIG9udG8KPiB0aGUgaG9zdCdzIG5hdGl2ZSBhcHByb3ZhbCBjYXJkcy4gVGhlIG1vZGVscyBsaXZlIG9uIHRoZSBlbmdpbmUgc2lkZS4qCgotLS0KCiMjIOWug+ino+WGs+S7gOS5iOmXrumimAoKSGFybmVzcyDoh6rluKbnmoQgYEBkZWVwc2Vlay1haS9kc2gtc3ViYWdlbnQtYWNwYCDmmK8qKuS4gOasoeaApyoq55qE77yI5Y+q5pyJIGBzdGFydEV4dGVybmFsYO+8jOayoeaciQpgcHJlcGFyZUNvbnRpbnVhYmxlYO+8ieOAguiAjCBvcGVuY29kZSDlo7DmmI7kuoYgYGxvYWRTZXNzaW9uOiB0cnVlYCDlubblpoLlrp7lrp7njrAgYHNlc3Npb24vbG9hZGDjgIIK5omA5Lul6KaB5YGa55qE5pivIioq57ut5o6lKirkuIDkuKrnnJ/lrp7lvJXmk47kvJror50i77yM6ICM5LiN5pivIuavj+asoemHjeW8gOS4gOS4quS8muivneWGjeaKiuaRmOimgeeymOi/m+WOuyLigJTigJQK5bCx5b+F6aG76Ieq5bex5o6l566h6L+Z5LiqIHByb3ZpZGVy44CC6L+Z5q2j5piv5pys5o+S5Lu25a2Y5Zyo55qE55CG55Sx77yM5Lmf5pivIGAvb3BlbmNvZGUgLXJgIOiDveecn+ato+aOpeS4igrkuIrkuIDova7lvJXmk47kvJror53nmoTljp/lm6DjgIIKCiMjIOaetuaehAoKYGBgCkRlZXBTZWVrIEhhcm5lc3MgKEhvc3QpCiAgIOKUgiAgIGN0eC5zdWJhZ2VudHMgLyBjdHguY29tbWFuZHMgLyBjdHguYXBwcm92YWwgLyBjdHguc3VicHJvY2VzcyAvIGN0eC5zdG9yYWdlRG9tYWluCiAgIOKWvApkc2gtb3BlbmNvZGUtZW5naW5lICAobGliL2luZGV4LmpzKQogICDilJzilIAg5rOo5YaMIHByb3ZpZGVyIGBvcGVuY29kZS1hY3BgCiAgIOKUnOKUgCDms6jlhozlkb3ku6QgYC9vcGVuY29kZWAKICAg4pSc4pSAIOWuoeaJueahpSAgc2Vzc2lvbi9yZXF1ZXN0X3Blcm1pc3Npb24g4oaSIGN0eC5hcHByb3ZhbC5yZXF1ZXN0IOKGkiDlrqHmibnljaEg4oaSIOWbnuWIsCBBQ1AKICAg4pSc4pSAIOmdmem7mOeci+mXqOeLlyArIOWksei0peWIhuexu+WbnuaJpwogICDilJzilIAg5qih5Z6LL+eUqOmHj+mdouadv++8iDAuMi4xMu+8ie+8mmAvb3BlbmNvZGUtZW5naW5lL2FwaWAg6Lev55SxICsgYGxpYi9jbGllbnQuanNgIOWuouaIt+erryBidW5kbGUKICAg4pSU4pSAIOWtmOWCqOWfnyBvcGVuY29kZV9lbmdpbmXvvIjorrDkvY8i5pysIEhhcm5lc3Mg5Lya6K+d55So6L+H5ZOq5Liq5byV5pOO5Lya6K+dL+aooeWeiy/oirHotLki77yJCiAgIOKUgiAgIHNwYXdu77yI5a2Q6L+b56iL5o6l57yd77yMV2luZG93cyDkuIrmjILov5sgSm9iIOWvueixoe+8jGRpc3Bvc2Ug5pe25Zue5pS277yJCiAgIOKWvApvcGVuY29kZSBhY3AgICDihpAgc3RkaW8gbmRqc29u77yMQUNQIDEuNC4wCiAgIOKUgiAgIHNlc3Npb24vbmV3IMK3IHNlc3Npb24vbG9hZCDCtyBzZXNzaW9uL3Byb21wdCDCtyBzZXNzaW9uL3NldF9jb25maWdfb3B0aW9uCiAgIOKWvApvcGVuY29kZSDlvJXmk47kvJror50gIOKGkiAg5byV5pOO5L6n55qE5qih5Z6L77yI5ZCr5YWN6LS56L2m6YGT77yJCmBgYAoK5byV5pOO55qE5YaZ5YWlKirkuI3nu4/ov4cqKiBIYXJuZXNzIOeahOaWh+S7tuW3peWFt++8jOaJgOS7peaPkuS7tuiHquW3sei1sCBnaXQg5b+r54Wn5p2l57uZ5Ye6IuacrOasoeaUueS6huWTquS6m+aWh+S7tiIK55qE5Zue5omn77yb5LiN5ZyoIGdpdCDku5PlupPph4zlsLHnnIHnlaXor6XliJfooajjgIIKCiMjIOWuieijhQoK5YmN572u77yaTm9kZS5qcyDiiaUgMjDjgIFwbnBt77yI5oiWIG5wbe+8ieOAgeW3suijheWlvSBvcGVuY29kZe+8jOS7peWPiuS4gOS4quiDveijhSBidW5kbGUg55qEIERlZXBTZWVrIEhhcm5lc3PjgIIKCmBgYGJhc2gKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9odXl1MDA3L2RzaC1vcGVuY29kZS1lbmdpbmUuZ2l0CmNkIGRzaC1vcGVuY29kZS1lbmdpbmUKcG5wbSBpbnN0YWxsICAgICAgICAgICMg5a6J6KOFIGRlcGVuZGVuY2llc++8iOWuv+S4u+S+p+WQjOWQjeWMhei1sCBwZWVyRGVwZW5kZW5jaWVz77yM5LiN5Lya6YeN5aSN5omT5YyF77yJCm5wbSBwYWNrICAgICAgICAgICAgICAjIOKGkiBkc2gtb3BlbmNvZGUtZW5naW5lLTAuMi4xMi50Z3oKYGBgCgrnhLblkI7kuozpgInkuIDvvJoKCi0gKipHVUkqKu+8muWuv+S4u+aPkuS7tumhtSDihpIg5a6J6KOF5pys5Zyw5YyFIOKGkiDpgInkuK3kuIrpnaLpgqPkuKogYC50Z3pg44CCCi0gKirlkb3ku6TooYwqKu+8mueUqOWuv+S4u+eahOaPkuS7tueuoeeQhuWFpeWPo+aKiuivpSBidW5kbGUg6KOF5LiK77yIYGluc3RhbGxfYnVuZGxlYO+8ieOAggoK6KOF5a6M5a6/5Li75Lya54Ot5oyC6L296KGl5LiB77yMKirkuI3pnIDopoHph43lkK8qKuOAggoKIyMg6YWN572uCgpgY29yZGlzLnBhdGNoLnltbGAg6YeM55qEIGBjb25maWdgIOWwseaYr+aPkuS7tueahCBgQ29uZmlnYO+8iOingSBgbGliL2luZGV4LmpzYO+8ieOAggoKfCDplK4gfCDnsbvlnosgLyDpu5jorqQgfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgYGVuZ2luZUNvbW1hbmRgIHwgc3RyaW5nIC8gYCcnYCB8ICoq5b+F5aGrKirjgIJvcGVuY29kZSDlj6/miafooYzmlofku7bnmoTnu53lr7not6/lvoTjgILlhazlhbHniYjkuI3luKbku7vkvZXmnLrlmajot6/lvoTpu5jorqTlgLzvvJvnlZnnqbrml7bov5DooYzkvJrov5Tlm54gYOOAkGNvbmZpZ+OAkWAg5aSx6LSl5Zue5omn5bm25YaZIG9wZXJhdG9yIOaXpeW/l++8jOS4jeS8muaKm+W8guW4uOOAgioq5Y+v5Zyo6YWN572u6Z2i5p2/77yIU2V0dGluZ3Mg4oaSIFBsdWdpbnPvvInph4zmlLkqKu+8jOS5n+WPr+WGmSBwcm9maWxlIOihpeS4geOAgiB8CnwgYGVuZ2luZUFyZ3NgIHwgc3RyaW5nW10gLyBgWydhY3AnLCctLXByaW50LWxvZ3MnLCctLWxvZy1sZXZlbCcsJ1dBUk4nXWAgfCBgLS1wcmludC1sb2dzIC0tbG9nLWxldmVsIFdBUk5gIOaYryoq5om/6YeN55qEKirvvIzkuI3mmK/oo4XppbDvvJpvcGVuY29kZSDlj6rlnKjoh6rlt7HnmoTml6Xlv5fmlofku7bph4zmiqXlkYogWmVuIOi9pumBk+iAl+Wwve+8jOWOu+aOieWug+WwseetieS6juiuqSLpop3luqblopki5ZKMIuWNoeatuyLplb/lvpfkuIDmqKHkuIDmoLfjgIIgfAp8IGBwZXJtaXNzaW9uYCB8IGAnYWxsb3cn772cJ3JlamVjdCfvvZwnYXNrJ2AgLyBgJ2FsbG93J2AgfCDop4HkuIsqKuS4ieaAgeivreS5iSoq44CCIHwKfCBgaWRsZVRpbWVvdXRNc2AgfCBudW1iZXIgLyBgMzAwMDAwYCB8ICoq6Z2Z6buYKirnnIvpl6jni5fvvIzkuI3mmK/ogJfml7bkuIrpmZDjgILlvJXmk47miqXlkYrmrbvovabpgZPnmoTmlrnlvI/lsLHmmK8i5LiA5Liq5a2X6YO95LiN6L6T5Ye6Iu+8jOaJgOS7pemYiOWAvOWPliA1IOWIhumSn++8muS4gOasoeecn+WunuWGmeWFpeWunua1i+WNgeWHoOWIsOS6jOWNgeWHoOenku+8jGBzZXNzaW9uL2xvYWRgIOWKoOWkmuatpee8lui+keWQiOeQhuWcsOimgei3keWHoOWIhumSn+OAguiuviAwIOWFs+mXreOAgiB8CnwgYGFwcHJvdmFsVGltZW91dE1zYCB8IG51bWJlciAvIGAzMDAwMDBgIHwg5a6h5om55Y2h5aSa5LmF5rKh5Lq65Zue562U566X5ouS57ud44CCKirotoXml7bmsLjkuI3nrYnkuo7mlL7ooYwqKuOAgiB8CnwgYGNvbW1hbmRUaW1lb3V0TXNgIHwgbnVtYmVyIC8gYDYwMDAwMGAgfCBgL29wZW5jb2RlYCDlkb3ku6TnrYnlvoXlvJXmk47nu5PnrpfnmoTkuIrpmZDvvIgwLjIuMTHvvInjgILlj5blnKggYGlkbGVUaW1lb3V0TXNgICoq5LmL5LiKKirvvJrmraPluLjmg4XlhrXkuIvpnZnpu5jnnIvpl6jni5flhYjliIbnsbvvvIzov5nkuKrlpKnoirHmnb/lj6rlnKgi5LuA5LmI6YO95LiN57uT566XIuaXtuWFnOW6leOAguiuviAwIOWFs+mXreOAgiB8CnwgYGNoYW5nZUxpc3RgIHwgYm9vbGVhbiAvIGB0cnVlYCB8IOWbnuaJp+mZhOW4puacrOasoeaUueWKqOaWh+S7tuWIl+ihqO+8iGdpdCDlv6vnhafvvInjgIIgfAp8IGB0cmFuc2NyaXB0RGlyYCB8IHN0cmluZyAvIGAnLm9wZW5jb2RlLWVuZ2luZSdgIHwg5q+P5qyh6L+Q6KGM5oqK5byV5pOO5YWo5paH5YaZ6L+bIGA8Y3dkPi88dHJhbnNjcmlwdERpcj4vYO+8jOWPpueVmeS4gOS7veeos+WumueahCBgbGFzdC1ydW4ubWRg44CC5a6D5piv5ZSv5LiA5LiN5L6d6LWW5a6/5Li75oqV6YCS6K+t5LmJ55qE5Y+v6KeB5oCn5YWc5bqV77yI5a6/5Li75Zyo5p+Q5Lqb54q25oCB5LiL5Lya6Z2Z6buY5Lii5byD5a2Q5Luj55CG55qE57uT566X6YCa55+l77yJ44CC6K6+IGAnJ2Ag5YWz6Zet44CCIHwKfCBgcHJvdmlkZXJOYW1lYCB8IHN0cmluZyAvIGAnb3BlbmNvZGUtYWNwJ2AgfCBwcm92aWRlciDlkI3jgIIgfAp8IGBjb21tYW5kTmFtZWAgfCBzdHJpbmcgLyBgJ29wZW5jb2RlJ2AgfCDlkb3ku6TlkI3vvIzljbMgYC9vcGVuY29kZWDjgIIgfAp8IGBtb2RlbGAgLyBgYWdlbnRgIHwgc3RyaW5nIC8gYCcnYCB8IOm7mOiupOmAj+S8oOe7meW8leaTjueahOaooeWeiyAvIGFnZW5077yI6LWwIGBzZXNzaW9uL3NldF9jb25maWdfb3B0aW9uYO+8ieOAgiB8CnwgYHdpdGhTdW1tYXJ5YCB8IGJvb2xlYW4gLyBgZmFsc2VgIHwg5Lu75Yqh5YmN5piv5ZCm6ZmE5bim5pys5Lya6K+d55qE5Y6L57yp5b+r54Wn44CCIHwKfCBgY3dkQWxpZ25gIHwgYm9vbGVhbiAvIGB0cnVlYCB8IOW8leaTjuW3peS9nOebruW9leWvuem9kOeItuS8muivneW3peS9nOebruW9leOAgiB8CnwgYGRpc3Bvc2VHcmFjZU1zYCB8IG51bWJlciAvIGAzMDAwYCB8IOWtkOi/m+eoi+e7iOatouWuvemZkOOAgiB8CgojIyMgYHBlcm1pc3Npb25gIOS4ieaAgeivreS5iQoKLSAqKmBhc2tgKiog4oCUIOavj+S4quW8leaTjiBgc2Vzc2lvbi9yZXF1ZXN0X3Blcm1pc3Npb25gIOmDvei/hyBgY3R4LmFwcHJvdmFsLnJlcXVlc3Rg77yI5a6h5om55Y2h77yJ77yMCiAg57uT5p6c5YaZ5ZueIEFDUO+8mmBhbGxvd2VkLW9uY2Ug4oaSIGFsbG93X29uY2VgIOmAiemhue+8jOWFtuS9meS4gOW+iyBgcmVqZWN0X29uY2Vg44CC6L+Z5bqn5qGlKipmYWlsIGNsb3NlZCoq77yaCiAg5a6h5om55pyN5Yqh57y65aSx44CB5ou/5LiN5YiwIGFnZW5044CB5a6h5om56LaF5pe244CB6L+Q6KGM6KKr5Lit5q2i4oCU4oCU5YWo6YOo5ouS57ud5byV5pOO77yM57ud5LiN5Zug5Li6IuayoeetlOahiCLogIzmlL7ooYzjgIIKLSAqKmBhbGxvd2AqKiDigJQg5LiN6Zeu5Lq677yM55u05o6l5Y+W5byV5pOO57uZ5Ye655qE56ys5LiA5LiqIGFsbG93IOmAiemhueOAggotICoqYHJlamVjdGAqKiDigJQg5YWo6YOo5ouS57ud77yM5byV5pOO5bCG5peg5rOV5YaZ5paH5Lu244CCCgojIyMgbm8tdHVybu+8mmAvb3BlbmNvZGVgIOWRveS7pOi3r+W+hOS4uuS7gOS5iOaLv+S4jeWIsOWuoeaJueWNoQoKYGN0eC5hcHByb3ZhbC5yZXF1ZXN0YCDopoHmsYIqKuWtmOWcqOS4gOS4qiBvcGVuIHR1cm4qKuKAlOKAlGBhcHByb3ZhbC9hc2tlZGAg5LiOIGBhcHByb3ZhbC9kZWNpZGVkYArov5nlr7nlrqHorqHorrDlvZXlv4XpobvokL3lnKjmjIHkuYXml6Xlv5fnmoTmj5DkuqTovrnnlYzlhoXvvIzmnI3liqHlnKggdHVybiDlpJbkvJrnm7TmjqXmipvplJnjgIIK6ICMKirlkb3ku6TmmK/lnKggdHVybiDmnLrliLbkuYvlpJbmiafooYznmoQqKu+8iOi/meS4gOeCueS4juaooeWei+WPkei1t+eahOW3peWFt+iwg+eUqOS4jeWQjO+8ieOAggoK5omA5Lul5ZyoIGAvb3BlbmNvZGVgIOi3r+W+hOS4iuOAgWBwZXJtaXNzaW9uOiBhc2tgIOaXtu+8jOW8leaTjueahOavj+asoeadg+mZkOivt+axgumDveS8muiiq+WIpOWumuS4uiBgbm8tdHVybmAK5bm2Kirmi5Lnu50qKu+8iGZhaWwgY2xvc2Vk77yJ77yM5Zue5omn5Lya5piO56Gu5ZGK6K+J5L2g5Y6f5Zug77yM6ICM5LiN5piv6K6p5L2g5Lul5Li65a6h5om55Y2h5Z2P5LqG44CCCuaPkuS7tioq5LiN5LyaKirkvKrpgKDkuIDkuKogdHVybuKAlOKAlOmCo+etieS6juS8qumAoOS8muivnee7k+aehOOAggoKPiDpnIDopoHkurrlnKjnjq/kuIrlrqHmibnml7bvvJoqKueUqCB0dXJuIOWGheeahCBgb3BlbmNvZGVgIOWnlOa0vuW3peWFtyoq77yI5qih5Z6L6Ieq54S26K+t6KiA6LCD55So6YKj5p2h6Lev5b6E77yJ77yMCj4g5oiW6ICF5oqKIGBwZXJtaXNzaW9uYCDorr7kuLogYGFsbG93YOOAggoKIyMg5qih5Z6LIC8g55So6YeP6Z2i5p2/77yIMC4yLjEy77yJCgrovpPlhaXmoYbkuIvmlrnkvJrlh7rnjrDkuIDmnpogY2hpcO+8mioq5byV5pOO5b2T5YmN5qih5Z6LICsg5pys5Lya6K+d57Sv6K6h6Iqx6LS5KirvvIhgb3BlbmNvZGUgwrcgPOaooeWeiz4gwrcgOC44a2DvvInjgILngrnlvIDlj6/ku6UK55u05o6l6YCJ5qih5Z6L44CB5Yi35paw5qih5Z6L5riF5Y2V44CB5oiW5oGi5aSN6buY6K6k44CCCgotICoq5L2c55So5Z+f5pivIuacrCBIYXJuZXNzIOS8muivnSIqKu+8mui/meadoeS8muivnemAiSBga2ltaS1rMi10dXJib2DvvIzlj6bkuIDmnaHkvJror53ku43nlKjpu5jorqTmqKHlnovjgIIKICDliIfmjaLkvJror53ml7YgY2hpcCDph43mlrDor7vor6XkvJror53oh6rlt7HnmoTpgInmi6nkuI7ntK/orqHjgIIKLSAqKuS8mOWFiOe6pyoq77yaYC9vcGVuY29kZSAtLW1vZGVsIDxpZD5gID4g5pys5Lya6K+d55qE6Z2i5p2/6YCJ5oupID4g6buY6K6k77yIYENvbmZpZy5tb2RlbGAgLyBwcm9maWxlIOihpeS4ge+8ieOAggotICoq6K+a5a6e5oql5ZGKKirvvJrlvJXmk47oi6Xmi5Lnu53kuobmn5DkuKrmqKHlnosgaWTvvIzlm57miafmmL7npLrnmoTmmK8qKuW8leaTjuWunumZheWcqOeUqCoq55qE6YKj5Liq77yM5LiN5Lya5YGH6KOFIuaIkeato+WcqOeUqCBYIuOAggotICoq5YiX5qih5Z6LIC8g5Yi35paw5LiN5raI6ICX6aKd5bqmKirvvJrmuIXljZXmnaXoh6ogYHNlc3Npb24vbmV3YCAvIGBzZXNzaW9uL2xvYWRgIOaPoeaJi+i/lOWbnueahAogIGBjb25maWdPcHRpb25zYOKAlOKAlOWPquaPoeaJi+OAgSoq5LuO5LiN5Y+RIHByb21wdCoq44CC5a6e5rWLIDgg5Liq5qih5Z6LICsgYnVpbGQvcGxhbiDmqKHlvI/nuqYgMS4yIOenku+8jAogIOmbtumineW6puaUr+WHuu+8jOaJgOS7pSLliLfmlrAi5oyJ6ZKu5Y+v5Lul5pS+5b+D54K544CCCi0gKip0b2tlbiDor63kuYkqKu+8muW8leaTjueahCBgdG90YWxUb2tlbnNgICoq5YyF5ZCr57yT5a2Y6K+7KirvvIjkuIDkuKogMTQzIHRva2VuIOeahOS7u+WKoeS8muaKpSA4NzU277yJ77yMCiAg5omA5LulIGNoaXAg5pi+56S655qE5pivKirovpPlhaUgKyDovpPlh7oqKu+8jOS4iuS4i+aWh+inhOaooeWNleeLrOagh+azqO+8jOS4jeaKiuS4iuS4i+aWh+WGkuWFheaIkOiKsei0ueOAggotICoq55Sf5pWI5p2h5Lu2KirvvJrpnaLmnb/pnIDopoEgV2ViL0dVSSBwcm9maWxl77yI5a6/5Li7IGB3ZWJTZXJ2ZXJgIOWcqOWcuu+8ieOAgmhlYWRsZXNzIC8gQ0xJIHByb2ZpbGUg5LiL6Z2i5p2/CiAg5LiN5riy5p+T77yM5L2G5ZG95Luk6KGM6Z2i77yIYC9vcGVuY29kZSBtb2RlbHNgIC8gYG1vZGVsIDxpZD5g77yJ54Wn5bi45Y+v55So4oCU4oCUVUkg5piv6KGl5YWF77yM5LiN5piv5ZSv5LiA5YWl5Y+j44CCCgojIyDkvb/nlKgKCmBgYAovb3BlbmNvZGUg5oqKIHNyYy8g6YeM55qEIFRPRE8g5rOo6YeK5riF5o6J77yM5pS55a6M6LeR5LiA5qyh5rWL6K+VCi9vcGVuY29kZSAtciDlho3ooaXkuIDkuIvovrnnlYzmg4XlhrXnmoTmtYvor5UgICAgICAgICMg57ut5o6l5LiK5LiA6L2u5byV5pOO5Lya6K+d77yIc2Vzc2lvbi9sb2Fk77yJCi9vcGVuY29kZSAtLW1vZGVsIDxpZD4gPOS7u+WKoT4KL29wZW5jb2RlIC0tYWdlbnQgPG5hbWU+IDzku7vliqE+Ci9vcGVuY29kZSAtLXdpdGgtc3VtbWFyeSA85Lu75YqhPiAgICAgICAgICAgICMg5bim5LiK5pys5Lya6K+d55qE5Y6L57yp5b+r54WnCi9vcGVuY29kZSAtLW5vLWNvbnRleHQgPOS7u+WKoT4gICAgICAgICAgICAgICMg5Y6f5qC35Y+R6YCB77yM5LiN5Yqg5Lu75L2V5LiK5LiL5paHCi9vcGVuY29kZSAtLWRldGFjaCA85Lu75YqhPiAgICAgICAgICAgICAgICAgICMg56uL5Y2z6L+U5Zue77yM6L6T5Ye655WZ5Zyo5a2Q5Lya6K+d6YeM55yLCi9vcGVuY29kZSAtLWN3ZCA8cGF0aD4gPOS7u+WKoT4gICAgICAgICAgICAgICMg6L+b6Zi277ya6KaG55uW5byV5pOO5bel5L2c55uu5b2VCi9vcGVuY29kZSBtb2RlbHMgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOW8leaTjuWPr+eUqOaooeWeiyArIOacrOS8muivneW9k+WJjemAieaLqe+8iOmbtumineW6pu+8iQovb3BlbmNvZGUgbW9kZWxzIC0tcmVmcmVzaCAgICAgICAgICAgICAgICAgIyDku47lvJXmk47ph43or7vmuIXljZXvvIjlj6rmj6HmiYvvvIzpm7bpop3luqbvvIkKL29wZW5jb2RlIG1vZGVsIDxpZD4gICAgICAgICAgICAgICAgICAgICAgICMg5Li644CQ5pys5Lya6K+d44CR6YCJ5oup5qih5Z6L77yM5LiL5qyh6L+Q6KGM55Sf5pWICi9vcGVuY29kZSBtb2RlbCBkZWZhdWx0ICAgICAgICAgICAgICAgICAgICAjIOWPlua2iOacrOS8muivneeahOmAieaLqQpgYGAKCum7mOiupOi3r+W+hOS8mioq562JKirlvJXmk47ot5HlrozlubbmiornrZTmoYjotLTlm57lvZPliY3kvJror53jgIJgLS1kZXRhY2hgIOaXtui/m+W6puS4jui+k+WHuuWcqOS+p+agj+WtkOS7o+eQhumdouadv+eahAror6XkvJror53lhoXmn6XnnIvvvJtgcGVybWlzc2lvbjogYXNrYCDkuIvotormnYPmk43kvZzku43kvJrlvLnlrqHmibnljaHjgIIKCioq6Ieq54S26K+t6KiA5aeU5rS+KirvvJrooaXkuIHlkIzml7bms6jlhozkuoYgYG9wZW5jb2RlYCDlt6XlhbfvvIjnu5HlrprliLAgcHJvdmlkZXLvvInvvIzmiYDku6Xnm7TmjqXor7QKIuiuqSBvcGVuY29kZSDljrvlrp7njrAgWCIg5Lmf6IO95Yiw6L6+5byV5pOO77yM6ICM6L+Z5p2h6Lev5piv5ZyoIHR1cm4g5YaF55qE4oCU4oCU5a6h5om55Y2h5q2j5bi45bel5L2c44CCCgojIyDliY3mj5AKCi0gb3BlbmNvZGUg5bey5a6J6KOF77yM5bm25LiUKirlt7Lnu4/nmbvlvZUgLyDphY3lpb3lroPoh6rlt7HnmoTmqKHlnovovabpgZMqKuOAguacrOaPkuS7tuS4jeeuoeeQhuS7u+S9leWHreaNruOAggotIFplbiDlhY3otLnovabpgZPnmoTphY3pop3mmK8qKuWHuuWPoyBJUCDnuqfnmoTliIbpkp/nqpflj6MqKu+8muWQjCBJUCDkuIrlpJrkuKrov5vnqIvkvJrkupLnm7jmjKTljaDvvIzmkp7kuIrlopnml7YKICDooajnjrDmmK8i5byV5pOO6Z2Z6buYIuiAjOS4jeaYr+aKpemUmeKAlOKAlOi/meWwseaYryBgLS1wcmludC1sb2dzYCDkuI7pnZnpu5jnnIvpl6jni5flrZjlnKjnmoTljp/lm6DjgIIKLSBXaW5kb3dzIOS4iiBgZW5naW5lQ29tbWFuZGAgKirlv4XpobvmjIflkJEgYC5leGVgKirvvIzkuI3og73mmK8gYG9wZW5jb2RlLmNtZGDvvJrlrZDov5vnqIvmjqXnvJ3otbAKICBgQ3JlYXRlUHJvY2Vzc1dg77yM5Y+v5omn6KGM5paH5Lu25o6i5rWL5Y+q6K6kIGAuY29tYC9gLmV4ZWDvvIxgLmNtZGAg5YyF6KOF5LyaIGBzcGF3biBFSU5WQUxg44CCCgojIyDlt7Lnn6XpmZDliLYKCi0gKirplb/ku7vliqHkuIrnmoQgaW50ZXJydXB0IOacquWcqOecn+acuumqjOivgSoq44CC5Y+W5raI5Lya6LWw5YiwIHByb3ZpZGVyIOeahCBkaXNwb3NlIOi3r+W+hO+8jOS9huW8leaTjuWcqAogIOmVvyB0dXJuIOS4remAlOiiq+WPlua2iOeahOihjOS4uuaIkeS7rOayoeaciemAkOWcuuaZr+Wunua1i++8jOWIq+aKiuWug+W9k+S9nOW3sumqjOivgeeahOWPr+mdoOivreS5ieOAggotICoq5byV5pOO5Y2H57qn5ZCO5Y+v6IO96ZyA6KaB5pS5IGBlbmdpbmVDb21tYW5kYCoq77yabnBtIOWFqOWxgCAvIERlc2t0b3AgLyDkuI3lkIzniYjmnKznmoQgb3BlbmNvZGUg6JC95ZyoCiAg5LiN5ZCM6Lev5b6E5LiK77yM6Lev5b6E5YaZ5q275Zyo6YWN572u6YeM77yM5Y2H57qn5ZCO5aSx5pWI5bCx5omL5Yqo5pu05paw44CCCi0gQUNQIOeJiOacrOmSieWcqCBgMS40LjBg44CC5byV5pOO6Iul6KaB5rGC5pu06auY5Y2P5ZWG54mI5pys77yM5Lya5b2S5Li6IGBwcm90b2NvbGAg57G75aSx6LSl44CCCi0g5pS55Yqo5paH5Lu25YiX6KGo5L6d6LWWIGdpdO+8m+mdniBnaXQg5bel5L2c5Yy66YeM6K+l5YiX6KGo6KKr55yB55Wl44CCCgojIyDlpLHotKXliIbnsbsKCuWbnuaJp+S4jeS8muWPquivtCLku7vliqHlpLHotKUi44CC5Zub57G75Y6f5Zug6ZyA6KaB55So5oi35YGa5Zub5Lu25LiN5ZCM55qE5LqL77yaCgp8IGtpbmQgfCDlkKvkuYkgfCDkvaDor6XlgZrku4DkuYggfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgYHF1b3RhYCB8IOWFjei0uei9pumBk+mineW6puiAl+Wwve+8iOS7juW8leaTjiBzdGRlcnIg5Yik5a6a77yJIHwg562J6aKd5bqm5oGi5aSN77yM5oiW5o2iIGAtLW1vZGVsYO+8j+iuoumYhSB8CnwgYHNpbGVudGAgfCDlvJXmk47mtLvnnYDkvYbmv4DmtLvlkI7kuIDkuKrkuovku7bpg73msqHmnIkgfCDlhYjph43or5XvvJvmjIHnu63lpoLmraTosIPlpKcgYGlkbGVUaW1lb3V0TXNgIOaIluaNouaooeWeiyB8CnwgYHRpbWVvdXRgIHwg5pyJ6L+b5bGV5ZCO5YGc5L2P77yI55yL6Zeo54uX6Kem5Y+R77yJIHwg6LCD5aSnIGBpZGxlVGltZW91dE1zYO+8jOaIluWFiOeUqOabtOWwj+eahOS7u+WKoeivleaOoiB8CnwgYGNyYXNoYCB8IOW8leaTjui/m+eoi+W8guW4uOmAgOWHuiB8IOajgOafpSBgZW5naW5lQ29tbWFuZGAg5piv5ZCm5a2Y5Zyo5LiU5Y+v5omn6KGMIHwKfCBgcHJvdG9jb2xgIHwgQUNQIOWNj+iuruS4jeS4gOiHtCAvIOS8muivneWkseaViCB8IOmHjeW8gOS4gOS4quS7u+WKoe+8jOS7jeWksei0peWImeaPkCBpc3N1ZSB8CnwgYGNhbmNlbGxlZGAgfCDku7vliqHooqvkuK3mraLvvIjlkKsi6L+Y5rKhIHNwYXduIOWwseWPlua2iCLvvIkgfCDmraPluLjmlLblsL7vvIzkuI3mmK/mlYXpmpzvvJvovpPlh7rnnIsgYGxhc3QtcnVuLm1kYCB8CnwgYGNvbmZpZ2AgfCBgZW5naW5lQ29tbWFuZGAg5pyq6YWN572uIHwg5Zyo6YWN572u6Z2i5p2/5oiWIHByb2ZpbGUg6KGl5LiB6YeM5aGr5LiK5byV5pOO6Lev5b6EIHwKCiMjIDAuMi4xMSAvIDAuMi4xMiDlj5jmm7TvvIjnm7jlr7kgMC4yLjEw77yJCgoqKjAuMi4xMSDigJQg5Y+W5raI5LiO6LaF5pe25LiN5YaNIuS7gOS5iOmDveS4jeWbniIqKgoKLSBgL29wZW5jb2RlYCDlkb3ku6Toh6rlt7HmjZXojrcgYWJvcnRlZCDkuI7otoXml7bvvIzov5Tlm54qKuS4reaWhyoq5Zue5omn5bm25oyH5ZCRIGBsYXN0LXJ1bi5tZGDvvJsKICDlvILluLjnu53kuI3lpJbmipvvvIjlpJbmipvml7blrr/kuLvkvJrmuLLmn5PlroPoh6rlt7HnmoToi7HmlofplJnor6/vvIznlKjmiLflsLHnnIvkuI3liLDlh7rot6/kuobvvInjgIIKLSDmlrDlop4gYGNvbW1hbmRUaW1lb3V0TXNgIOS4iumZkO+8muWRveS7pOerr+i/h+WOu+WcqCLku4DkuYjpg73kuI3nu5Pnrpci5pe25Lya5rC46L+c562J5LiL5Y6744CCCi0gYWJvcnQg546w5Zyo5Lya5Lyg5pKt5YiwKirlt7Lnu48gc3Bhd24g55qE5byV5pOOKirvvJrmj6HmiYvmnJ/pl7TliLDovr7nmoTlj5bmtojooqvorrDkvY/vvIzkvJror53kuIDlrZjlnKjlsLHmiafooYzvvJsKICDmj6HmiYvlkI7jgIHlj5HpgIHliY3liLDovr7nmoTlj5bmtogqKui3s+i/h+WPkemAgSoq77yI5ZCm5YiZ5byV5pOO5Lya5oqK55So5oi35Yia5Y+W5raI55qE5Lu75Yqh5pW05Liq6LeR5a6M77yJ44CCCi0gIuWPlua2iCLlvZLkuLogYGNhbmNlbGxlZGDvvIzkuI3lho3ooqvor6/liKTmiJAgYHByb3RvY29sYO+8iOaXp+eJiOS8muWRiuivieeUqOaItyLkvaDnmoTlvJXmk44gQUNQIOWNj+iuruS4jeWvuSLvvIwKICDogIzkuovlrp7mmK8i5L2g5Zyo5a6D5ZCv5Yqo5YmN5bCx5Y+W5raI5LqGIu+8ieOAggotICoq5bey55+l6L6555WMKirvvJrlrr/kuLvlkb3ku6TmiafooYzlmajlnKggYWJvcnQg5pe25YWIIHJlamVjdO+8jHNpZ25hbCDmiqLot5HnmoTlnLrmma/kuIvlkb3ku6Tlm57miafku43mmK/lrr/kuLvnmoQKICDoi7HmlofmlofmoYjvvIjov5nkuIDngrnmj5Lku7bkuonkuI3ov4fvvIzkuZ/kuI3or6XkuonvvInvvJvmnKzmrKHkv67nmoTmmK8i5Zue5omn5LiN5oqb44CB5LiN5oyC77yM5byV5pOO55yf55qE6KKr5Y+W5raIIuOAggoKKiowLjIuMTIg4oCUIOaooeWeiyAvIOeUqOmHj+mdouadvyoqCgotIOingeS4iumdouOAjOaooeWeiyAvIOeUqOmHj+mdouadv+OAjeS4gOiKgu+8mkdVSSBjaGlwICsgYC9vcGVuY29kZSBtb2RlbHNgIC8gYG1vZGVsYCDlkb3ku6TpnaIgKwogIOavj+asoei/kOihjOWbnuaJp+WbuuWumuS4gOihjCBgbW9kZWw6IOKApiDCtyB0b2tlbnM6IOi+k+WFpSBYL+i+k+WHuiBZIMK3IOS4iuS4i+aWhyBaYOOAggotIOaooeWei+a4heWNleadpeiHqiBgY29uZmlnT3B0aW9uc2DvvIwqKumbtumineW6pioq77yb5a2Y5YKo5Z+f5paw5aKeIGBjYXRhbG9nYCDooajvvIxgc2Vzc2lvbnNgIOihqOaWsOWinuWtl+autQogIOWFqOmDqOW4pum7mOiupOWAvO+8jOaXp+iusOW9leS7jeiDveino+aekOOAggotIOmdouadv+aVsOaNrui1sCBgL29wZW5jb2RlLWVuZ2luZS9hcGlgIOi3r+eUse+8jOWHhuWFpeeUqCoq5a6/5Li76Ieq5bex55qE6L+e5o6l5qCF5qCPKirvvIjlkIzmupDlt7LorqTor4Hor7fmsYLvvInvvIwKICDmj5Lku7bkvqfkuI3lvJXlhaXku7vkvZUgdG9rZW7jgIIKCiMjIDAuMi4xMCDlj5jmm7TvvIjnm7jlr7kgMC4yLjfvvIkKCi0gKirlrr/kuLvljIXlhajpg6jmlLnkuLogcGVlcioq77yaYEBkZWVwc2Vlay1haS8qYCDkuI3lho3ov5sgYGRlcGVuZGVuY2llc2DjgIJwbnBtIOS8muaKiiBgZGVwZW5kZW5jaWVzYAogIOeJqeeQhiBob2lzdCDov5sgcHJvZmlsZSDmoJHvvIhgYXV0b0luc3RhbGxQZWVyczpmYWxzZWAg5LiLIHBlZXIg5Y+q5aOw5piO5LiN5a6J6KOF77yJ77yMcmMuMiDniYjmnKznmoQKICBgZHNoLXNlc3Npb25gL2Bkc2gtYnJhbmRgL2Bkc2gtc3RvcmFnZS1kb21haW5gIOWboOatpOW9seWtkOWMluS6hiBhc2FyIOWGheeahCByYy41IOWuieijheagke+8jAogIOWvvOiHtCByYy41IOWuv+S4u+aLv+S4jeWIsCBgc2Vzc2lvbnNgIOacjeWKoeiAjOWQr+WKqOWksei0peOAguWGmSBwZWVyIOWQjueUsSBOb2RlIOino+aekOWIsOi/kOihjOS4rei/kOihjOaXtuiHquW3seeahOWJr+acrOOAggotICoqcGVlciDljLrpl7TmlL7lrr3kuLogYD49MC4yLjEtcmMuMiA8MC4zLjBgKirvvIzkuIvkuIDmrKHov5DooYzml7bljYfnuqfkuI3kvJrlho3lm6DpkonmrbvniYjmnKzooqvmi5Lnu53mjILovb3jgIIKLSAqKmBlbmdpbmVDb21tYW5kYC9gbW9kZWxgL2BhZ2VudGAg5pS55Li6IGB2b2xhdGlsZWAqKu+8muWPr+WcqOmFjee9rumdouadv+WGheeDreaUue+8m+acqumFjee9ruaXtui/lOWbngogIGDjgJBjb25maWfjgJFgIOWksei0peWbnuaJp++8iOS4jeaKm+W8guW4uO+8ieOAggotICoq5Zue5omn5LiN5YaN5Lii5byD5byV5pOO5q2j5paHKirvvJrmraPmlofkuI7ov5DooYzkuovlrp7vvIhzdG9wIHJlYXNvbiAvIGVuZ2luZSBzZXNzaW9uIC8g5pS55Yqo5paH5Lu277yJ5bm25a2Y77ybCiAg5Y+m5oqK5byV5pOO5YWo5paH6JC955uY5YiwIGB0cmFuc2NyaXB0RGlyYO+8jOaIquaWreS4jiBgLS1kZXRhY2hgIOaPkOekuuaMh+WQkeecn+WunuaWh+S7tu+8jOS4jeWGjeaMh+WQkeS4jeWtmOWcqOeahCLlrZDkvJror50i44CCCgoKIyMgRW5nbGlzaAoKKipXaGF0IGl0IGRvZXMuKiogYGRzaC1vcGVuY29kZS1lbmdpbmVgIGNvbm5lY3RzIHRoZSAqKm9wZW5jb2RlKiogY29kaW5nIGVuZ2luZSB0bwpEZWVwU2VlayBIYXJuZXNzIGFzIGFuICoqb3V0LW9mLXByb2Nlc3Mgc3ViYWdlbnQgc2Vzc2lvbioqLiBUaGUgcGx1Z2luIG93bnMgYW4gQUNQCnByb3ZpZGVyLCBzcGF3bnMgYG9wZW5jb2RlIGFjcGAsIGRyaXZlcyBpdCBvdmVyIHRoZSBBZ2VudCBDbGllbnQgUHJvdG9jb2wsIGFuZCBicmlkZ2VzCnBlcm1pc3Npb24gcmVxdWVzdHMgb250byB0aGUgaG9zdCdzIG5hdGl2ZSBhcHByb3ZhbCBjYXJkcy4gTW9kZWxzIGFyZSB0aGUgZW5naW5lJ3MKY29uY2VybiDigJQgaW5jbHVkaW5nIGl0cyBmcmVlIGxhbmVzLgoKKipXaHkgbm90IHRoZSBzdG9jayBBQ1Agc3ViYWdlbnQ/KiogYEBkZWVwc2Vlay1haS9kc2gtc3ViYWdlbnQtYWNwYCBpcyBzdHJpY3RseSBvbmUtc2hvdAooYHN0YXJ0RXh0ZXJuYWxgLCBubyBgcHJlcGFyZUNvbnRpbnVhYmxlYCksIHdoaWxlIG9wZW5jb2RlIGFkdmVydGlzZXMgYGxvYWRTZXNzaW9uOiB0cnVlYAphbmQgaG9ub3VycyBgc2Vzc2lvbi9sb2FkYC4gQ29udGludWluZyBhIHJlYWwgZW5naW5lIHNlc3Npb24g4oCUIGluc3RlYWQgb2YgcGFzdGluZyBhCnN1bW1hcnkgaW50byBhIGZyZXNoIG9uZSDigJQgcmVxdWlyZXMgb3duaW5nIHRoZSBwcm92aWRlci4gVGhhdCBpcyB3aGF0IGAvb3BlbmNvZGUgLXJgIGRvZXMuCgoqKkluc3RhbGwuKiogYHBucG0gaW5zdGFsbCAmJiBucG0gcGFja2AsIHRoZW4gaW5zdGFsbCB0aGUgcmVzdWx0aW5nIGAudGd6YCBmcm9tIHRoZSBob3N0J3MKcGx1Z2luIHBhZ2UgKG9yIHZpYSBpdHMgYnVuZGxlIGluc3RhbGwgZW50cnkpLiBObyBob3N0IHJlc3RhcnQgaXMgbmVlZGVkLgoKKipDb25maWd1cmF0aW9uLioqIEV2ZXJ5IGtleSBpcyBkb2N1bWVudGVkIGluIHRoZSB0YWJsZSBhYm92ZTsgYGVuZ2luZUNvbW1hbmRgIGlzIHRoZSBvbmx5CnJlcXVpcmVkIG9uZSBhbmQgc2hpcHMgd2l0aCBubyBkZWZhdWx0LiBLZWVwIGAtLXByaW50LWxvZ3NgIGluIGBlbmdpbmVBcmdzYDogb3BlbmNvZGUKcmVwb3J0cyBhbiBleGhhdXN0ZWQgZnJlZSBsYW5lICpvbmx5KiBpbiBpdHMgb3duIGxvZyBmaWxlLCBzbyB3aXRob3V0IHRoYXQgbWlycm9yIGEgcXVvdGEKd2FsbCBpcyBpbmRpc3Rpbmd1aXNoYWJsZSBmcm9tIGEgaGFuZy4KCioqYHBlcm1pc3Npb25gLioqIGBhc2tgIHNlbmRzIGV2ZXJ5IGVuZ2luZSBwZXJtaXNzaW9uIHJlcXVlc3QgdGhyb3VnaCB0aGUgaG9zdCdzIGFwcHJvdmFsCmNhcmQgYW5kIHdyaXRlcyB0aGUgb3V0Y29tZSBiYWNrIHRvIEFDUCwgZmFpbGluZyAqKmNsb3NlZCoqIG9uIGEgbWlzc2luZyBhcHByb3ZhbCBzZXJ2aWNlLAphbiBhYnNlbnQgYWdlbnQsIGEgdGltZW91dCwgb3IgYW4gYWJvcnQuIGBhbGxvd2AgdGFrZXMgdGhlIGZpcnN0IGFsbG93IG9wdGlvbiB3aXRob3V0IGEKaHVtYW4uIGByZWplY3RgIGRlY2xpbmVzIGV2ZXJ5dGhpbmcsIGxlYXZpbmcgdGhlIGVuZ2luZSB1bmFibGUgdG8gd3JpdGUuCgoqKk5vLXR1cm4gZmFpbC1jbG9zZWQuKiogYGFwcHJvdmFsLnJlcXVlc3RgIG5lZWRzIGFuIG9wZW4gdHVybiwgYW5kIHNsYXNoIGNvbW1hbmRzIGV4ZWN1dGUKb3V0c2lkZSB0aGUgdHVybiBtYWNoaW5lcnkuIFNvIG9uIHRoZSBgL29wZW5jb2RlYCBwYXRoIHdpdGggYHBlcm1pc3Npb246IGFza2AsIGVuZ2luZQpwZXJtaXNzaW9uIHJlcXVlc3RzIGFyZSBkZW5pZWQgYXMgYG5vLXR1cm5gIGFuZCB0aGUgcmVjZWlwdCBzYXlzIHNvLiBVc2UgdGhlIGluLXR1cm4KYG9wZW5jb2RlYCBkZWxlZ2F0aW9uIHRvb2wgd2hlbiB5b3Ugd2FudCBhIGh1bWFuIGluIHRoZSBsb29wLCBvciBzZXQgYHBlcm1pc3Npb246IGFsbG93YC4KCioqVXNhZ2UuKiogYC9vcGVuY29kZSA8dGFzaz5gIHJ1bnMgYSB0YXNrIGFuZCB3YWl0cyBmb3IgdGhlIGFuc3dlcjsgYC1yYCBjb250aW51ZXMgdGhlIGxhc3QKZW5naW5lIHNlc3Npb24gb3ZlciBgc2Vzc2lvbi9sb2FkYDsgYC0tZGV0YWNoYCByZXR1cm5zIGltbWVkaWF0ZWx5OyBgLS1tb2RlbGAvYC0tYWdlbnRgIHBhc3MKY29uZmlndXJhdGlvbiB0aHJvdWdoIHRvIHRoZSBlbmdpbmU7IGAtLXdpdGgtc3VtbWFyeWAvYC0tbm8tY29udGV4dGAgY29udHJvbCBjb250ZXh0LiBZb3UgY2FuCmFsc28gYXNrIHRoZSBtb2RlbCB0byBkZWxlZ2F0ZSB0byBvcGVuY29kZSBpbiBuYXR1cmFsIGxhbmd1YWdlLgoKKipNb2RlbCAmIHVzYWdlIHBhbmVsICgwLjIuMTIpLioqIEJlbG93IHRoZSBjb21wb3NlciBhIGNoaXAgc2hvd3MgdGhlIGVuZ2luZSdzIGN1cnJlbnQgbW9kZWwKYW5kIHRoaXMgc2Vzc2lvbidzIGFjY3VtdWxhdGVkIHNwZW5kOyBjbGlja2luZyBpdCBsZXRzIHlvdSBwaWNrIGEgbW9kZWwsIHJlZnJlc2ggdGhlIGxpc3QsIG9yCnJlc3RvcmUgdGhlIGRlZmF1bHQuIFRoZSBwaWNrIGlzIHNjb3BlZCB0byB0aGUgY3VycmVudCBIYXJuZXNzIHNlc3Npb24sIGFuZCBwcmVjZWRlbmNlIGlzCmAtLW1vZGVsYCA+IHRoZSBwYW5lbCBwaWNrID4gZGVmYXVsdHMuIExpc3RpbmcgYW5kIHJlZnJlc2hpbmcgY29zdCAqKnplcm8gcXVvdGEqKjogdGhlIGNhdGFsb2cKY29tZXMgZnJvbSB0aGUgYGNvbmZpZ09wdGlvbnNgIHRoZSBlbmdpbmUgcmV0dXJucyBkdXJpbmcgdGhlIGBzZXNzaW9uL25ld2AgLyBgc2Vzc2lvbi9sb2FkYApoYW5kc2hha2Ug4oCUIG5vIHByb21wdCBpcyBldmVyIHNlbnQuIE5vdGUgdGhhdCB0aGUgZW5naW5lJ3MgYHRvdGFsVG9rZW5zYCBpbmNsdWRlcyBjYWNoZWQgcmVhZHMKKGEgMTQzLXRva2VuIHRhc2sgcmVwb3J0cyA4NzU2KSwgc28gdGhlIGNoaXAgc2hvd3MgaW5wdXQrb3V0cHV0IGFzIHRoZSBzcGVuZCBhbmQgbGFiZWxzIHRoZQpjb250ZXh0IHNpemUgc2VwYXJhdGVseS4gVGhlIEdVSSBwYW5lbCByZXF1aXJlcyBhIFdlYi9HVUkgcHJvZmlsZSAodGhlIGhvc3QgYHdlYlNlcnZlcmAgc2VydmljZSk7Cm9uIGhlYWRsZXNzIHByb2ZpbGVzIGl0IGRvZXMgbm90IHJlbmRlciwgYnV0IGAvb3BlbmNvZGUgbW9kZWxzYCBhbmQgYC9vcGVuY29kZSBtb2RlbCA8aWQ+YCBzdGlsbAp3b3JrIGZyb20gdGhlIGNvbW1hbmQgbGluZS4KCioqRmFpbHVyZSByZWNlaXB0cyoqIGFyZSBjbGFzc2lmaWVkIGludG8gYHF1b3RhYCwgYHNpbGVudGAsIGB0aW1lb3V0YCwgYGNyYXNoYCwgYHByb3RvY29sYCwKYGNhbmNlbGxlZGAgKDAuMi4xMSkgYW5kIGBjb25maWdgLCBlYWNoIHdpdGggYW4gYWN0aW9uYWJsZSBoaW50IOKAlCBiZWNhdXNlICJ0aGUgdGFzayBmYWlsZWQiIGlzCm5ldmVyIGEgdXNlZnVsIGFuc3dlci4gMC4yLjExIGFsc28gYWRkZWQgYGNvbW1hbmRUaW1lb3V0TXNgIChkZWZhdWx0IDYwMDAwMCwgMCA9IHVubGltaXRlZCkgYW5kCm1hZGUgY2FuY2VsbGF0aW9uIHByb3BhZ2F0ZSB0byBhbiBhbHJlYWR5LXNwYXduZWQgZW5naW5lLgoKKipQcmVyZXF1aXNpdGVzLioqIG9wZW5jb2RlIG11c3QgYWxyZWFkeSBiZSBpbnN0YWxsZWQgYW5kIGxvZ2dlZCBpbnRvIGl0cyBvd24gbW9kZWwgbGFuZSDigJQKdGhpcyBwbHVnaW4gc3RvcmVzIG5vIHNpZ24taW4gbWF0ZXJpYWwuIFRoZSBaZW4gZnJlZSBsYW5lIGlzIHJhdGUtbGltaXRlZCBwZXIgc291cmNlIElQIGluCm1pbnV0ZSB3aW5kb3dzLCBzbyBzZXZlcmFsIHByb2Nlc3NlcyBiZWhpbmQgb25lIElQIGNvbXBldGUuIE9uIFdpbmRvd3MgYGVuZ2luZUNvbW1hbmRgIG11c3QKcG9pbnQgYXQgYW4gYC5leGVgOiB0aGUgc3Bhd24gc2VhbSBnb2VzIHRocm91Z2ggYENyZWF0ZVByb2Nlc3NXYCBhbmQgcmVqZWN0cyBgLmNtZGAgd3JhcHBlcnMKd2l0aCBgc3Bhd24gRUlOVkFMYC4KCioqS25vd24gbGltaXRhdGlvbnMuKiogSW50ZXJydXB0aW5nIGxvbmctcnVubmluZyBlbmdpbmUgdGFza3MgaXMgKipub3QgdmVyaWZpZWQgb24gcmVhbApoYXJkd2FyZSoqIOKAlCBjYW5jZWxsYXRpb24gcmVhY2hlcyB0aGUgZGlzcG9zZSBwYXRoLCBidXQgbWlkLXR1cm4gZW5naW5lIGJlaGF2aW91ciB3YXMgbmV2ZXIKZXhlcmNpc2VkIHNjZW5hcmlvIGJ5IHNjZW5hcmlvLiBFbmdpbmUgdXBncmFkZXMgbWF5IGNoYW5nZSB3aGVyZSB0aGUgZXhlY3V0YWJsZSBsaXZlcywgc28KdXBkYXRlIGBlbmdpbmVDb21tYW5kYCBhZnRlciB1cGdyYWRpbmcuIEFDUCBpcyBwaW5uZWQgdG8gMS40LjAuCgojIyDlvIDlj5EKCi0gKirmlLnlrZfoioLlv4XljYfniYjmnKzlj7cqKu+8muWuv+S4u+aMieWMheWQjSvniYjmnKzlronoo4XvvIzlkIzniYjmnKzph43oo4XkuI3kvJrliLfmlrDlrp7nianjgILku7vkvZXmlLnliqjvvIjlk6rmgJXlj6rmlLnms6jph4rvvIkKICDpg73opoHlhYjlnKggYHBhY2thZ2UuanNvbmAg6YeM5Y2H54mI5pys77yM5YaN5omT5YyF44CB5YaN5o+Q5Lqk44CCCi0gYGxpYi9jbGllbnQuanNgIOazqOWGjOi/m+Wuv+S4u+aooeWdl+WKoOi9veWZqOaXtueahCBgaWRgICoq5b+F6aG7562J5LqO5YyF5ZCNKirvvIzlkKbliJkgR1VJIOmdouadv+S8mioq6Z2Z6buY5LiN5Yqg6L29KioKICDvvIjkuI3miqXplJnjgIHkuI3ltKnmuoPvvIzlsLHmmK/msqHmnIkgY2hpcO+8ieOAguaUueWQjeaIluaNoiBzY29wZSDml7blkIzmraXmlLnov5nkuIDlpITjgIIKLSDmlLnliqjlkI7oh7PlsJHot5HvvJpgbm9kZSAtLWNoZWNrIGxpYi9pbmRleC5qcyAmJiBub2RlIC0tY2hlY2sgbGliL2NsaWVudC5qc2DvvIjor63ms5Xpl6jljoblj7LkuIrmi6bkuIvov4cKICDkuKTmrKHlnY/ooaXkuIHvvInvvIzlho0gYG5wbSBwYWNrYCDlronoo4XkuIDmrKHnoa7orqTlrp7niankuI7mupDnoIHkuIDoh7TjgIIKCiMjIExpY2Vuc2UKCk1JVCDigJQgc2VlIFtMSUNFTlNFXShMSUNFTlNFKS4K
+<div align="center">
+  <img src="icon.svg" alt="dsh-opencode-engine" width="120">
+
+# dsh-opencode-engine
+
+**简体中文** | [English](#english)
+
+  <img alt="许可证" src="https://img.shields.io/badge/license-MIT-263146?style=flat-square">
+  <img alt="版本" src="https://img.shields.io/badge/version-0.2.12-4b6fff?style=flat-square">
+  <img alt="协议" src="https://img.shields.io/badge/ACP-1.4.0-2f6f4f?style=flat-square">
+  <img alt="宿主" src="https://img.shields.io/badge/host-DeepSeek%20Harness-7da1de?style=flat-square">
+
+</div>
+
+把 **opencode** 编码引擎接进 DeepSeek Harness，作为**进程外子会话**运行：插件自己实现一个
+ACP provider，spawn `opencode acp` 子进程，通过 ACP（Agent Client Protocol）驱动它，
+并把引擎的权限请求桥接到宿主原生的审批卡上。模型跑在引擎侧，免费车道由引擎自己负责。
+
+> *Plug the **opencode** coding engine into DeepSeek Harness as an **out-of-process
+> subagent session**: this plugin owns an ACP provider, spawns `opencode acp`, drives
+> it over the Agent Client Protocol, and bridges the engine's permission requests onto
+> the host's native approval cards. The models live on the engine side.*
+
+---
+
+## 它解决什么问题
+
+Harness 自带的 `@deepseek-ai/dsh-subagent-acp` 是**一次性**的（只有 `startExternal`，没有
+`prepareContinuable`）。而 opencode 声明了 `loadSession: true` 并如实实现 `session/load`。
+所以要做的是"**续接**一个真实引擎会话"，而不是"每次重开一个会话再把摘要粘进去"——
+就必须自己接管这个 provider。这正是本插件存在的理由，也是 `/opencode -r` 能真正接上
+上一轮引擎会话的原因。
+
+## 架构
+
+```
+DeepSeek Harness (Host)
+   │   ctx.subagents / ctx.commands / ctx.approval / ctx.subprocess / ctx.storageDomain
+   ▼
+dsh-opencode-engine  (lib/index.js)
+   ├─ 注册 provider `opencode-acp`
+   ├─ 注册命令 `/opencode`
+   ├─ 审批桥  session/request_permission → ctx.approval.request → 审批卡 → 回到 ACP
+   ├─ 静默看门狗 + 失败分类回执
+   ├─ 模型/用量面板（0.2.12）：`/opencode-engine/api` 路由 + `lib/client.js` 客户端 bundle
+   └─ 存储域 opencode_engine（记住"本 Harness 会话用过哪个引擎会话/模型/花费"）
+   │   spawn（子进程接缝，Windows 上挂进 Job 对象，dispose 时回收）
+   ▼
+opencode acp   ← stdio ndjson，ACP 1.4.0
+   │   session/new · session/load · session/prompt · session/set_config_option
+   ▼
+opencode 引擎会话  →  引擎侧的模型（含免费车道）
+```
+
+引擎的写入**不经过** Harness 的文件工具，所以插件自己走 git 快照来给出"本次改了哪些文件"
+的回执；不在 git 仓库里就省略该列表。
+
+## 安装
+
+前置：Node.js ≥ 20、pnpm（或 npm）、已装好 opencode，以及一个能装 bundle 的 DeepSeek Harness。
+
+```bash
+git clone https://github.com/huyu007/dsh-opencode-engine.git
+cd dsh-opencode-engine
+pnpm install          # 安装 dependencies（宿主侧同名包走 peerDependencies，不会重复打包）
+npm pack              # → dsh-opencode-engine-0.2.12.tgz
+```
+
+然后二选一：
+
+- **GUI**：宿主插件页 → 安装本地包 → 选中上面那个 `.tgz`。
+- **命令行**：用宿主的插件管理入口把该 bundle 装上（`install_bundle`）。
+
+装完宿主会热挂载补丁，**不需要重启**。
+
+## 配置
+
+`cordis.patch.yml` 里的 `config` 就是插件的 `Config`（见 `lib/index.js`）。
+
+| 键 | 类型 / 默认 | 说明 |
+| --- | --- | --- |
+| `engineCommand` | string / `''` | **必填**。opencode 可执行文件的绝对路径。公共版不带任何机器路径默认值；留空时运行会返回 `【config】` 失败回执并写 operator 日志，不会抛异常。**可在配置面板（Settings → Plugins）里改**，也可写 profile 补丁。 |
+| `engineArgs` | string[] / `['acp','--print-logs','--log-level','WARN']` | `--print-logs --log-level WARN` 是**承重的**，不是装饰：opencode 只在自己的日志文件里报告 Zen 车道耗尽，去掉它就等于让"额度墙"和"卡死"长得一模一样。 |
+| `permission` | `'allow'｜'reject'｜'ask'` / `'allow'` | 见下**三态语义**。 |
+| `idleTimeoutMs` | number / `300000` | **静默**看门狗，不是耗时上限。引擎报告死车道的方式就是"一个字都不输出"，所以阈值取 5 分钟：一次真实写入实测十几到二十几秒，`session/load` 加多步编辑合理地要跑几分钟。设 0 关闭。 |
+| `approvalTimeoutMs` | number / `300000` | 审批卡多久没人回答算拒绝。**超时永不等于放行**。 |
+| `commandTimeoutMs` | number / `600000` | `/opencode` 命令等待引擎结算的上限（0.2.11）。取在 `idleTimeoutMs` **之上**：正常情况下静默看门狗先分类，这个天花板只在"什么都不结算"时兜底。设 0 关闭。 |
+| `changeList` | boolean / `true` | 回执附带本次改动文件列表（git 快照）。 |
+| `transcriptDir` | string / `'.opencode-engine'` | 每次运行把引擎全文写进 `<cwd>/<transcriptDir>/`，另留一份稳定的 `last-run.md`。它是唯一不依赖宿主投递语义的可见性兜底（宿主在某些状态下会静默丢弃子代理的结算通知）。设 `''` 关闭。 |
+| `providerName` | string / `'opencode-acp'` | provider 名。 |
+| `commandName` | string / `'opencode'` | 命令名，即 `/opencode`。 |
+| `model` / `agent` | string / `''` | 默认透传给引擎的模型 / agent（走 `session/set_config_option`）。 |
+| `withSummary` | boolean / `false` | 任务前是否附带本会话的压缩快照。 |
+| `cwdAlign` | boolean / `true` | 引擎工作目录对齐父会话工作目录。 |
+| `disposeGraceMs` | number / `3000` | 子进程终止宽限。 |
+
+### `permission` 三态语义
+
+- **`ask`** — 每个引擎 `session/request_permission` 都过 `ctx.approval.request`（审批卡），
+  结果写回 ACP：`allowed-once → allow_once` 选项，其余一律 `reject_once`。这座桥**fail closed**：
+  审批服务缺失、拿不到 agent、审批超时、运行被中止——全部拒绝引擎，绝不因为"没答案"而放行。
+- **`allow`** — 不问人，直接取引擎给出的第一个 allow 选项。
+- **`reject`** — 全部拒绝，引擎将无法写文件。
+
+### no-turn：`/opencode` 命令路径为什么拿不到审批卡
+
+`ctx.approval.request` 要求**存在一个 open turn**——`approval/asked` 与 `approval/decided`
+这对审计记录必须落在持久日志的提交边界内，服务在 turn 外会直接抛错。
+而**命令是在 turn 机制之外执行的**（这一点与模型发起的工具调用不同）。
+
+所以在 `/opencode` 路径上、`permission: ask` 时，引擎的每次权限请求都会被判定为 `no-turn`
+并**拒绝**（fail closed），回执会明确告诉你原因，而不是让你以为审批卡坏了。
+插件**不会**伪造一个 turn——那等于伪造会话结构。
+
+> 需要人在环上审批时：**用 turn 内的 `opencode` 委派工具**（模型自然语言调用那条路径），
+> 或者把 `permission` 设为 `allow`。
+
+## 模型 / 用量面板（0.2.12）
+
+输入框下方会出现一枚 chip：**引擎当前模型 + 本会话累计花费**（`opencode · <模型> · 8.8k`）。点开可以
+直接选模型、刷新模型清单、或恢复默认。
+
+- **作用域是"本 Harness 会话"**：这条会话选 `kimi-k2-turbo`，另一条会话仍用默认模型。
+  切换会话时 chip 重新读该会话自己的选择与累计。
+- **优先级**：`/opencode --model <id>` > 本会话的面板选择 > 默认（`Config.model` / profile 补丁）。
+- **诚实报告**：引擎若拒绝了某个模型 id，回执显示的是**引擎实际在用**的那个，不会假装"我正在用 X"。
+- **列模型 / 刷新不消耗额度**：清单来自 `session/new` / `session/load` 握手返回的
+  `configOptions`——只握手、**从不发 prompt**。实测 8 个模型 + build/plan 模式约 1.2 秒，
+  零额度支出，所以"刷新"按钮可以放心点。
+- **token 语义**：引擎的 `totalTokens` **包含缓存读**（一个 143 token 的任务会报 8756），
+  所以 chip 显示的是**输入 + 输出**，上下文规模单独标注，不把上下文冒充成花费。
+- **生效条件**：面板需要 Web/GUI profile（宿主 `webServer` 在场）。headless / CLI profile 下面板
+  不渲染，但命令行面（`/opencode models` / `model <id>`）照常可用——UI 是补充，不是唯一入口。
+
+## 使用
+
+```
+/opencode 把 src/ 里的 TODO 注释清掉，改完跑一次测试
+/opencode -r 再补一下边界情况的测试        # 续接上一轮引擎会话（session/load）
+/opencode --model <id> <任务>
+/opencode --agent <name> <任务>
+/opencode --with-summary <任务>            # 带上本会话的压缩快照
+/opencode --no-context <任务>              # 原样发送，不加任何上下文
+/opencode --detach <任务>                  # 立即返回，输出留在子会话里看
+/opencode --cwd <path> <任务>              # 进阶：覆盖引擎工作目录
+/opencode models                           # 引擎可用模型 + 本会话当前选择（零额度）
+/opencode models --refresh                 # 从引擎重读清单（只握手，零额度）
+/opencode model <id>                       # 为【本会话】选择模型，下次运行生效
+/opencode model default                    # 取消本会话的选择
+```
+
+默认路径会**等**引擎跑完并把答案贴回当前会话。`--detach` 时进度与输出在侧栏子代理面板的
+该会话内查看；`permission: ask` 下越权操作仍会弹审批卡。
+
+**自然语言委派**：补丁同时注册了 `opencode` 工具（绑定到 provider），所以直接说
+"让 opencode 去实现 X" 也能到达引擎，而这条路是在 turn 内的——审批卡正常工作。
+
+## 前提
+
+- opencode 已安装，并且**已经登录 / 配好它自己的模型车道**。本插件不管理任何凭据。
+- Zen 免费车道的配额是**出口 IP 级的分钟窗口**：同 IP 上多个进程会互相挤占，撞上墙时
+  表现是"引擎静默"而不是报错——这就是 `--print-logs` 与静默看门狗存在的原因。
+- Windows 上 `engineCommand` **必须指向 `.exe`**，不能是 `opencode.cmd`：子进程接缝走
+  `CreateProcessW`，可执行文件探测只认 `.com`/`.exe`，`.cmd` 包装会 `spawn EINVAL`。
+
+## 已知限制
+
+- **长任务上的 interrupt 未在真机验证**。取消会走到 provider 的 dispose 路径，但引擎在
+  长 turn 中途被取消的行为我们没有逐场景实测，别把它当作已验证的可靠语义。
+- **引擎升级后可能需要改 `engineCommand`**：npm 全局 / Desktop / 不同版本的 opencode 落在
+  不同路径上，路径写死在配置里，升级后失效就手动更新。
+- ACP 版本钉在 `1.4.0`。引擎若要求更高协商版本，会归为 `protocol` 类失败。
+- 改动文件列表依赖 git；非 git 工作区里该列表被省略。
+
+## 失败分类
+
+回执不会只说"任务失败"。四类原因需要用户做四件不同的事：
+
+| kind | 含义 | 你该做什么 |
+| --- | --- | --- |
+| `quota` | 免费车道额度耗尽（从引擎 stderr 判定） | 等额度恢复，或换 `--model`／订阅 |
+| `silent` | 引擎活着但激活后一个事件都没有 | 先重试；持续如此调大 `idleTimeoutMs` 或换模型 |
+| `timeout` | 有进展后停住（看门狗触发） | 调大 `idleTimeoutMs`，或先用更小的任务试探 |
+| `crash` | 引擎进程异常退出 | 检查 `engineCommand` 是否存在且可执行 |
+| `protocol` | ACP 协议不一致 / 会话失效 | 重开一个任务，仍失败则提 issue |
+| `cancelled` | 任务被中止（含"还没 spawn 就取消"） | 正常收尾，不是故障；输出看 `last-run.md` |
+| `config` | `engineCommand` 未配置 | 在配置面板或 profile 补丁里填上引擎路径 |
+
+## 0.2.11 / 0.2.12 变更（相对 0.2.10）
+
+**0.2.11 — 取消与超时不再"什么都不回"**
+
+- `/opencode` 命令自己捕获 aborted 与超时，返回**中文**回执并指向 `last-run.md`；
+  异常绝不外抛（外抛时宿主会渲染它自己的英文错误，用户就看不到出路了）。
+- 新增 `commandTimeoutMs` 上限：命令端过去在"什么都不结算"时会永远等下去。
+- abort 现在会传播到**已经 spawn 的引擎**：握手期间到达的取消被记住，会话一存在就执行；
+  握手后、发送前到达的取消**跳过发送**（否则引擎会把用户刚取消的任务整个跑完）。
+- "取消"归为 `cancelled`，不再被误判成 `protocol`（旧版会告诉用户"你的引擎 ACP 协议不对"，
+  而事实是"你在它启动前就取消了"）。
+- **已知边界**：宿主命令执行器在 abort 时先 reject，signal 抢跑的场景下命令回执仍是宿主的
+  英文文案（这一点插件争不过，也不该争）；本次修的是"回执不抛、不挂，引擎真的被取消"。
+
+**0.2.12 — 模型 / 用量面板**
+
+- 见上面「模型 / 用量面板」一节：GUI chip + `/opencode models` / `model` 命令面 +
+  每次运行回执固定一行 `model: … · tokens: 输入 X/输出 Y · 上下文 Z`。
+- 模型清单来自 `configOptions`，**零额度**；存储域新增 `catalog` 表，`sessions` 表新增字段
+  全部带默认值，旧记录仍能解析。
+- 面板数据走 `/opencode-engine/api` 路由，准入用**宿主自己的连接栅栏**（同源已认证请求），
+  插件侧不引入任何 token。
+
+## 0.2.10 变更（相对 0.2.7）
+
+- **宿主包全部改为 peer**：`@deepseek-ai/*` 不再进 `dependencies`。pnpm 会把 `dependencies`
+  物理 hoist 进 profile 树（`autoInstallPeers:false` 下 peer 只声明不安装），rc.2 版本的
+  `dsh-session`/`dsh-brand`/`dsh-storage-domain` 因此影子化了 asar 内的 rc.5 安装树，
+  导致 rc.5 宿主拿不到 `sessions` 服务而启动失败。写 peer 后由 Node 解析到运行中运行时自己的副本。
+- **peer 区间放宽为 `>=0.2.1-rc.2 <0.3.0`**，下一次运行时升级不会再因钉死版本被拒绝挂载。
+- **`engineCommand`/`model`/`agent` 改为 `volatile`**：可在配置面板内热改；未配置时返回
+  `【config】` 失败回执（不抛异常）。
+- **回执不再丢弃引擎正文**：正文与运行事实（stop reason / engine session / 改动文件）并存；
+  另把引擎全文落盘到 `transcriptDir`，截断与 `--detach` 提示指向真实文件，不再指向不存在的"子会话"。
+
+
+## English
+
+**What it does.** `dsh-opencode-engine` connects the **opencode** coding engine to
+DeepSeek Harness as an **out-of-process subagent session**. The plugin owns an ACP
+provider, spawns `opencode acp`, drives it over the Agent Client Protocol, and bridges
+permission requests onto the host's native approval cards. Models are the engine's
+concern — including its free lanes.
+
+**Why not the stock ACP subagent?** `@deepseek-ai/dsh-subagent-acp` is strictly one-shot
+(`startExternal`, no `prepareContinuable`), while opencode advertises `loadSession: true`
+and honours `session/load`. Continuing a real engine session — instead of pasting a
+summary into a fresh one — requires owning the provider. That is what `/opencode -r` does.
+
+**Install.** `pnpm install && npm pack`, then install the resulting `.tgz` from the host's
+plugin page (or via its bundle install entry). No host restart is needed.
+
+**Configuration.** Every key is documented in the table above; `engineCommand` is the only
+required one and ships with no default. Keep `--print-logs` in `engineArgs`: opencode
+reports an exhausted free lane *only* in its own log file, so without that mirror a quota
+wall is indistinguishable from a hang.
+
+**`permission`.** `ask` sends every engine permission request through the host's approval
+card and writes the outcome back to ACP, failing **closed** on a missing approval service,
+an absent agent, a timeout, or an abort. `allow` takes the first allow option without a
+human. `reject` declines everything, leaving the engine unable to write.
+
+**No-turn fail-closed.** `approval.request` needs an open turn, and slash commands execute
+outside the turn machinery. So on the `/opencode` path with `permission: ask`, engine
+permission requests are denied as `no-turn` and the receipt says so. Use the in-turn
+`opencode` delegation tool when you want a human in the loop, or set `permission: allow`.
+
+**Usage.** `/opencode <task>` runs a task and waits for the answer; `-r` continues the last
+engine session over `session/load`; `--detach` returns immediately; `--model`/`--agent` pass
+configuration through to the engine; `--with-summary`/`--no-context` control context. You can
+also ask the model to delegate to opencode in natural language.
+
+**Model & usage panel (0.2.12).** Below the composer a chip shows the engine's current model
+and this session's accumulated spend; clicking it lets you pick a model, refresh the list, or
+restore the default. The pick is scoped to the current Harness session, and precedence is
+`--model` > the panel pick > defaults. Listing and refreshing cost **zero quota**: the catalog
+comes from the `configOptions` the engine returns during the `session/new` / `session/load`
+handshake — no prompt is ever sent. Note that the engine's `totalTokens` includes cached reads
+(a 143-token task reports 8756), so the chip shows input+output as the spend and labels the
+context size separately. The GUI panel requires a Web/GUI profile (the host `webServer` service);
+on headless profiles it does not render, but `/opencode models` and `/opencode model <id>` still
+work from the command line.
+
+**Failure receipts** are classified into `quota`, `silent`, `timeout`, `crash`, `protocol`,
+`cancelled` (0.2.11) and `config`, each with an actionable hint — because "the task failed" is
+never a useful answer. 0.2.11 also added `commandTimeoutMs` (default 600000, 0 = unlimited) and
+made cancellation propagate to an already-spawned engine.
+
+**Prerequisites.** opencode must already be installed and logged into its own model lane —
+this plugin stores no sign-in material. The Zen free lane is rate-limited per source IP in
+minute windows, so several processes behind one IP compete. On Windows `engineCommand` must
+point at an `.exe`: the spawn seam goes through `CreateProcessW` and rejects `.cmd` wrappers
+with `spawn EINVAL`.
+
+**Known limitations.** Interrupting long-running engine tasks is **not verified on real
+hardware** — cancellation reaches the dispose path, but mid-turn engine behaviour was never
+exercised scenario by scenario. Engine upgrades may change where the executable lives, so
+update `engineCommand` after upgrading. ACP is pinned to 1.4.0.
+
+## 开发
+
+- **改字节必升版本号**：宿主按包名+版本安装，同版本重装不会刷新实物。任何改动（哪怕只改注释）
+  都要先在 `package.json` 里升版本，再打包、再提交。
+- `lib/client.js` 注册进宿主模块加载器时的 `id` **必须等于包名**，否则 GUI 面板会**静默不加载**
+  （不报错、不崩溃，就是没有 chip）。改名或换 scope 时同步改这一处。
+- 改动后至少跑：`node --check lib/index.js && node --check lib/client.js`（语法门历史上拦下过
+  两次坏补丁），再 `npm pack` 安装一次确认实物与源码一致。
+
+## License
+
+MIT — see [LICENSE](LICENSE).

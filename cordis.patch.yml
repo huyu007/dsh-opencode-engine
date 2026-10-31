@@ -1,1 +1,70 @@
-IyBCdW5kbGUgcGF0Y2ggZm9yIGRzaC1vcGVuY29kZS1lbmdpbmUuCiMKIyBNb3VudHMgT1VSIEhvc3QgcGx1Z2luIChsaWIvaW5kZXguanMpLCB3aGljaCByZWdpc3RlcnMgdGhlIGBvcGVuY29kZS1hY3BgCiMgc3ViYWdlbnQgcHJvdmlkZXIgYW5kIHRoZSBgL29wZW5jb2RlYCBjb21tYW5kLgojCiMgV2h5IG5vdCBAZGVlcHNlZWstYWkvZHNoLXN1YmFnZW50LWFjcDogdGhhdCBwYWNrYWdlIGlzIHN0cmljdGx5IG9uZS1zaG90CiMgKHN0YXJ0RXh0ZXJuYWwsIG5vIHByZXBhcmVDb250aW51YWJsZSksIHdoaWxlIG9wZW5jb2RlIGFkdmVydGlzZXMKIyBgbG9hZFNlc3Npb246IHRydWVgIGFuZCBob25vdXJzIGBzZXNzaW9uL2xvYWRgLiBPd25pbmcgdGhlIHByb3ZpZGVyIGlzIHdoYXQKIyBsZXRzIGAvb3BlbmNvZGUgLXJgIGNvbnRpbnVlIGEgcmVhbCBlbmdpbmUgc2Vzc2lvbiBpbnN0ZWFkIG9mIHJlc3RhcnRpbmcgb25lLgojCiMgQ29uZmlnIGtleXMgYmVsb3cgYXJlIHRoaXMgcGx1Z2luJ3Mgb3duIGBDb25maWdgIChsaWIvaW5kZXguanMpLiBUaGUgZW5naW5lCiMgY29tbWFuZCBpcyBhbiBgLmV4ZWAsIG5ldmVyIGBvcGVuY29kZS5jbWRgOiB0aGUgc3VicHJvY2VzcyBzZWFtIHNwYXducyB0aHJvdWdoCiMgQ3JlYXRlUHJvY2Vzc1cgKFdpbmRvd3MgSm9iIHJ1bm5lcikgYW5kIGl0cyBleGVjdXRhYmxlIHByb2JlIG9ubHkgdHJpZXMKIyBgLmNvbWAvYC5leGVgLCBzbyBhIGAuY21kYCB3cmFwcGVyIGZhaWxzIHdpdGggYHNwYXduIEVJTlZBTGAuIFZlcmlmaWVkCiMgb24gV2luZG93cyBvbiB0aGUgc2FtZSBzZWFtIChjbWQgLT4gRUlOVkFMLCBleGUgLT4gZXhpdCAwIC8gMS4xOS40KS4KLSBpbnNlcnQ6CiAgICAtIGlkOiBvcGVuY29kZS1lbmdpbmUKICAgICAgbmFtZTogJ2RzaC1vcGVuY29kZS1lbmdpbmUnCiAgICAgIGNvbmZpZzoKICAgICAgICBlbmdpbmVDb21tYW5kOiAnPHlvdXItb3BlbmNvZGUtcGF0aD5cYmluXG9wZW5jb2RlLmV4ZScKICAgICAgICAjIC0tcHJpbnQtbG9ncyAtLWxvZy1sZXZlbCBXQVJOIGlzIExPQUQtQkVBUklORzogb3BlbmNvZGUgcmVwb3J0cyBhbgogICAgICAgICMgZXhoYXVzdGVkIFplbiBsYW5lIG9ubHkgaW4gaXRzIG93biBsb2cgZmlsZSwgc28gd2l0aG91dCB0aGUgbWlycm9yIHRoZQogICAgICAgICMgQUNQIHN0cmVhbSBBTkQgc3RkZXJyIGFyZSBib3RoIHNpbGVudCBhbmQgYSBxdW90YSB3YWxsIGlzCiAgICAgICAgIyBpbmRpc3Rpbmd1aXNoYWJsZSBmcm9tIGEgaGFuZyAobWVhc3VyZWQgb24gV2luZG93cykuCiAgICAgICAgZW5naW5lQXJnczoKICAgICAgICAgIC0gYWNwCiAgICAgICAgICAtIC0tcHJpbnQtbG9ncwogICAgICAgICAgLSAtLWxvZy1sZXZlbAogICAgICAgICAgLSBXQVJOCiAgICAgICAgIyBUaGUgcGVybWlzc2lvbiBicmlkZ2UuICdhc2snIHJvdXRlcyBldmVyeSBlbmdpbmUKICAgICAgICAjIHNlc3Npb24vcmVxdWVzdF9wZXJtaXNzaW9uIHRocm91Z2ggY3R4LmFwcHJvdmFsLnJlcXVlc3QgKHRoZSBhcHByb3ZhbAogICAgICAgICMgY2FyZCkgYW5kIHdyaXRlcyB0aGUgb3V0Y29tZSBiYWNrIHRvIEFDUDoKICAgICAgICAjICAgYWxsb3dlZC1vbmNlIC0+IGFsbG93X29uY2Ugb3B0aW9uOyBldmVyeXRoaW5nIGVsc2UgLT4gcmVqZWN0X29uY2UuCiAgICAgICAgIyBUaGUgYnJpZGdlIGZhaWxzIENMT1NFRDogbWlzc2luZyBhcHByb3ZhbCBzZXJ2aWNlLCBhYnNlbnQgYWdlbnQsCiAgICAgICAgIyBhcHByb3ZhbCB0aW1lb3V0LCBvciBhbiBhYm9ydGVkIHJ1biBhbGwgZGVueSB0aGUgZW5naW5lLgogICAgICAgICMgJ2FsbG93JyBhdXRvLWFwcHJvdmVzIChmaXJzdCBhbGxvdyBvcHRpb24sIG5vIGh1bWFuKS4KICAgICAgICAjICdyZWplY3QnIGRlY2xpbmVzIGV2ZXJ5IHJlcXVlc3QsIGxlYXZpbmcgdGhlIGVuZ2luZSB1bmFibGUgdG8gd3JpdGUuCiAgICAgICAgcGVybWlzc2lvbjogYXNrCiAgICAgICAgIyBGYWlsLWNsb3NlZCBib3VuZHMuIGBpZGxlVGltZW91dE1zYCBpcyB0aGUgU0lMRU5DRSB3YXRjaGRvZzogYSBtZWFzdXJlZAogICAgICAgICMgOS1taW51dGUgYC1yYCBzaWxlbmNlIGFuZCB0aGUgWmVuIHF1b3RhIHdhbGwgYm90aCBsb29rIGxpa2UgIm5vIGV2ZW50cwogICAgICAgICMgYXQgYWxsIiwgc28gdGhlIGNlaWxpbmcgaXMgNSBtaW51dGVzIHJhdGhlciB0aGFuIGEgZmV3IHNlY29uZHMg4oCUIGEgcmVhbAogICAgICAgICMgb3BlbmNvZGUgdHVybiBtZWFzdXJlZCAxNi0yMnMgZm9yIG9uZSB3cml0ZSwgYW5kIGBzZXNzaW9uL2xvYWRgIHBsdXMgYQogICAgICAgICMgbXVsdGktc3RlcCBlZGl0IGxlZ2l0aW1hdGVseSBydW5zIGZvciBtaW51dGVzLiBBIG5ldmVyLWFuc3dlcmVkIGFwcHJvdmFsCiAgICAgICAgIyBjYXJkIGlzIGRlbmllZCAoNSBtaW4pIHJhdGhlciB0aGFuIGdyYW50aW5nIGJ5IG9taXNzaW9uLgogICAgICAgIGlkbGVUaW1lb3V0TXM6IDMwMDAwMAogICAgICAgIGFwcHJvdmFsVGltZW91dE1zOiAzMDAwMDAKICAgICAgICAjIEFwcGVuZCB0aGUgY2hhbmdlZC1maWxlIGxpc3QgdG8gdGhlIHJ1biByZWNlaXB0LiBNZWFzdXJlZCBvbiBXaW5kb3dzOgogICAgICAgICMgY3R4LndvcmtzcGFjZUNoYW5nZXMuc3VtbWFyeSgpIGRvZXMgTk9UIHNlZSB0aGUgZW5naW5lJ3Mgd3JpdGVzIChpdAogICAgICAgICMgc25hcHNob3RzIEhhcm5lc3MgZmlsZSB0b29scyksIHNvIHRoZSBwbHVnaW4gdGFrZXMgYSBnaXQgc25hcHNob3QgdGhyb3VnaAogICAgICAgICMgdGhlIHN1YnByb2Nlc3Mgc2VhbSBhbmQgb21pdHMgdGhlIGxpc3Qgb3V0c2lkZSBhIGdpdCByZXBvc2l0b3J5LgogICAgICAgIGNoYW5nZUxpc3Q6IHRydWUKICAgICAgICBwcm92aWRlck5hbWU6IG9wZW5jb2RlLWFjcAogICAgICAgIGNvbW1hbmROYW1lOiBvcGVuY29kZQogICAgICAgIG1vZGVsOiAnJwogICAgICAgIGFnZW50OiAnJwogICAgICAgIHdpdGhTdW1tYXJ5OiBmYWxzZQogICAgICAgIGN3ZEFsaWduOiB0cnVlCiAgICAgICAgZGlzcG9zZUdyYWNlTXM6IDMwMDAKCiAgICAjIERlbGVnYXRpb24gdG9vbCBib3VuZCB0byB0aGUgcHJvdmlkZXIsIHNvIHRoZSBtb2RlbCBjYW4gYWxzbyByZWFjaCB0aGUKICAgICMgZW5naW5lIGluIG5hdHVyYWwgbGFuZ3VhZ2UgKHRoZSBwcm92aWRlciBhcHBlYXJzIGluIHRoZSB0b29sCiAgICAjIGVudW0pLiBgbWF4RGVwdGg6IHByb3ZpZGVyLW1hbmFnZWRgIGlzIFJFUVVJUkVEOiB0aGUgcHJvdmlkZXIgYWR2ZXJ0aXNlcwogICAgIyBubyBkZXB0aExpbWl0IGNhcGFiaWxpdHksIGFuZCB0aGUgc2VhbSByZWplY3RzIGEgc3RhcnQgY2FycnlpbmcgbWF4RGVwdGguCiAgICAjIFRoZSB0b29sIGlzIG5hbWVkIGBvcGVuY29kZWAgdG8gYXZvaWQgY29sbGlkaW5nIHdpdGggdGhlIHN0b2NrIGBzdWJhZ2VudGAuCiAgICAtIGlkOiB0b29sLXN1YmFnZW50LW9wZW5jb2RlCiAgICAgIG5hbWU6ICdAZGVlcHNlZWstYWkvZHNoLXRvb2wtc3ViYWdlbnQnCiAgICAgIGNvbmZpZzoKICAgICAgICBwcm92aWRlcjogb3BlbmNvZGUtYWNwCiAgICAgICAgdG9vbE5hbWU6IG9wZW5jb2RlCiAgICAgICAgbWF4RGVwdGg6IHByb3ZpZGVyLW1hbmFnZWQK
+# Bundle patch for dsh-opencode-engine.
+#
+# Mounts OUR Host plugin (lib/index.js), which registers the `opencode-acp`
+# subagent provider and the `/opencode` command.
+#
+# Why not @deepseek-ai/dsh-subagent-acp: that package is strictly one-shot
+# (startExternal, no prepareContinuable), while opencode advertises
+# `loadSession: true` and honours `session/load`. Owning the provider is what
+# lets `/opencode -r` continue a real engine session instead of restarting one.
+#
+# Config keys below are this plugin's own `Config` (lib/index.js). The engine
+# command is an `.exe`, never `opencode.cmd`: the subprocess seam spawns through
+# CreateProcessW (Windows Job runner) and its executable probe only tries
+# `.com`/`.exe`, so a `.cmd` wrapper fails with `spawn EINVAL`. Verified
+# on Windows on the same seam (cmd -> EINVAL, exe -> exit 0 / 1.19.4).
+- insert:
+    - id: opencode-engine
+      name: 'dsh-opencode-engine'
+      config:
+        engineCommand: '<your-opencode-path>\bin\opencode.exe'
+        # --print-logs --log-level WARN is LOAD-BEARING: opencode reports an
+        # exhausted Zen lane only in its own log file, so without the mirror the
+        # ACP stream AND stderr are both silent and a quota wall is
+        # indistinguishable from a hang (measured on Windows).
+        engineArgs:
+          - acp
+          - --print-logs
+          - --log-level
+          - WARN
+        # The permission bridge. 'ask' routes every engine
+        # session/request_permission through ctx.approval.request (the approval
+        # card) and writes the outcome back to ACP:
+        #   allowed-once -> allow_once option; everything else -> reject_once.
+        # The bridge fails CLOSED: missing approval service, absent agent,
+        # approval timeout, or an aborted run all deny the engine.
+        # 'allow' auto-approves (first allow option, no human).
+        # 'reject' declines every request, leaving the engine unable to write.
+        permission: ask
+        # Fail-closed bounds. `idleTimeoutMs` is the SILENCE watchdog: a measured
+        # 9-minute `-r` silence and the Zen quota wall both look like "no events
+        # at all", so the ceiling is 5 minutes rather than a few seconds — a real
+        # opencode turn measured 16-22s for one write, and `session/load` plus a
+        # multi-step edit legitimately runs for minutes. A never-answered approval
+        # card is denied (5 min) rather than granting by omission.
+        idleTimeoutMs: 300000
+        approvalTimeoutMs: 300000
+        # Append the changed-file list to the run receipt. Measured on Windows:
+        # ctx.workspaceChanges.summary() does NOT see the engine's writes (it
+        # snapshots Harness file tools), so the plugin takes a git snapshot through
+        # the subprocess seam and omits the list outside a git repository.
+        changeList: true
+        providerName: opencode-acp
+        commandName: opencode
+        model: ''
+        agent: ''
+        withSummary: false
+        cwdAlign: true
+        disposeGraceMs: 3000
+
+    # Delegation tool bound to the provider, so the model can also reach the
+    # engine in natural language (the provider appears in the tool
+    # enum). `maxDepth: provider-managed` is REQUIRED: the provider advertises
+    # no depthLimit capability, and the seam rejects a start carrying maxDepth.
+    # The tool is named `opencode` to avoid colliding with the stock `subagent`.
+    - id: tool-subagent-opencode
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: opencode-acp
+        toolName: opencode
+        maxDepth: provider-managed
